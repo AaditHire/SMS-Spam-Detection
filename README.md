@@ -33,7 +33,7 @@ This project is a simple yet powerful web application for detecting spam SMS mes
 
 The project uses the popular **SMS Spam Collection Dataset**, consisting of labeled messages as 'ham' (not spam) or 'spam'. You can download the dataset from:
 
-🔗 [UCI Repository - SMS Spam Collection](https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset)
+🔗 [Kaggle Dataset - SMS Spam Collection](https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset)
 
 **Note:** In the provided code, the dataset is loaded from:
 

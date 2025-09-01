@@ -11,7 +11,7 @@ from xgboost import XGBClassifier
 st.title("🚀 SMS Spam Detection ")
 st.write("Detect spam messages and experiment with different XGBoost hyperparameters .")
 
-uploaded_file = r"C:\Users\ASUS\Downloads\archive\spam.csv"
+uploaded_file = r"C:\Users\spam.csv"
 
 try:
     df = pd.read_csv(uploaded_file, encoding='latin1')
@@ -106,3 +106,4 @@ try:
 
 except Exception as e:
     st.error(f"Error loading dataset: {e}")
+
